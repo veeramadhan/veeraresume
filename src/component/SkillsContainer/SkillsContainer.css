@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+/* .SkillsContainer_image{
+    display: block;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+} */
+
+.SkillsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+}
+.SkillsContainer_text{
+    color: rgb(255, 255, 255);
+    flex: 0.4;
+    text-align: left;
+    max-width: 500px;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+.SkillContainer_SkillSet > h1 {
+    font-size: 35px;
+    color: rgb(0, 190, 238);
+    font-weight: 300;
+    padding-bottom: 15px;
+    padding-top: 5px;
+ 
+}
+.SkillsContainer{
+    background-image: url(../../assest/skilling.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    box-shadow: inset 0 0 0 2000px rgba(0, 0,0, 0.5);
+}
+.SkillContainer_SkillSet >h1{
+    font-family: "Montserrat",sans-serif;
+}
+.SkillContainer_slider > .MuiLinearProgress-colorPrimary {
+   background-color: rgba(194, 15, 15, 0.979);
+}
+
+.SkillContainer_slider1 >span >.MuiLinearProgress-bar{
+    background-color: rgb(75, 252, 22);
+}
+
+.SkillContainer_slider2 >span >.MuiLinearProgress-bar{
+    background-color: rgb(190, 255, 10);
+}
+.SkillContainer_slider3 >span >.MuiLinearProgress-bar{
+    background-color: rgb(252, 227, 7);
+}
+.SkillContainer_slider4 >span >.MuiLinearProgress-bar{
+    background-color: rgba(55, 196, 0, 0.829);
+}
+
+ 
